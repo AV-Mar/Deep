@@ -1,2 +1,2 @@
-worker: python Sort.py
+worker: python deep.py
 web: python -m http.server $PORT
