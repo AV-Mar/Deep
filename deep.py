@@ -56,4 +56,4 @@ if __name__ == '__main__':
     app.add_handler(MessageHandler(filters.TEXT & ~filters.COMMAND, handle_message))
 
     print("🤖 DeepSeek V3 бот запущен и готов к диалогу!")
-    app.run_polling()
+    app.run_polling()  # ← вот это обязательно!
